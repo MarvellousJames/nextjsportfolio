@@ -1,0 +1,37 @@
+/* styles/Projects.module.css */
+.container {
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+
+
+.header h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 5px 0;
+}
+
+
+
+.repositoryButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #ea4c89;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.projectsGrid {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
